@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+     <title>ROBOTICS KIDS</title>
+     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+     <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" >
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+     <link rel="stylesheet" href="css/owl.carousel.css">
+     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/style.css">
+     <script src='./js/index.js'></script>
+
+</head>
+<body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+     <!-- PRE LOADER -->
+     <section class="preloader">
+          <div class="spinner">
+
+               <span class="spinner-rotate"></span>
+
+          </div>
+     </section>
+
+
+     <!-- MENU -->
+     <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+          <div class="container">
+
+               <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                    </button>
+
+                    <!-- lOGO TEXT HERE -->
+                    <a href="#" class="navbar-brand">KSTAR Bootcamps</a>
+               </div>
+
+               <!-- MENU LINKS -->
+               <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-nav-first">
+                         <li><a href="#top" class="smoothScroll">Home</a></li>
+                         <li><a href="#about" class="smoothScroll">About</a></li>
+                         <!-- <li><a href="#team" class="smoothScroll">Our Teachers</a></li> -->
+                         <li><a href="#courses" class="smoothScroll">Courses</a></li>
+                         <li><a href="#testimonial" class="smoothScroll">Reviews</a></li>
+                         <li><a href="#contact" class="smoothScroll">Contact</a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                         <li><a href="#"><i class="fa fa-phone"></i> +91-84678-19116</a></li>
+                    </ul>
+               </div>
+
+          </div>
+     </section>
+
+ <!-- ABOUT -->
+ <section id="about">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-6 col-sm-12">
+                    <div class="about-info">
+                         <h2>Be a ROBOT-MAKER . Learn ROBOTICS -ARDUINO based  with <i>KSTAR's Robotics Bootcamp for kids </i>.</h2>
+
+                         <figure>
+                              <!-- <span><i class="fa fa-users"></i></span> -->
+                              <figcaption>
+                                   <!-- <h3>Professional Trainers</h3>
+                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ipsa voluptatibus.</p> -->
+                                   <!-- <figure>
+                                        <span><i class="fa fa-certificate"></i></span>
+                                        <figcaption>
+                                             <h3>International Certifications</h3>
+                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ipsa voluptatibus.</p>
+                                        </figcaption>
+                                   </figure>
+
+                                   <figure>
+                                        <span><i class="fa fa-bar-chart-o"></i></span>
+                                        <figcaption>
+                                             <h3>Free for 3 months</h3>
+                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ipsa voluptatibus.</p>
+                                        </figcaption>
+                                   </figure> -->
+                                   <h3>For Arduino Junior  Robotics , curriculum </h3>
+
+                                        <p>DAY 1: Introduction to Robotics & Arduino.</p>
+                                        <p>DAY 2: Learn about basic Arduino block coding ,  Simple circuit using with LED </p>
+                                        <p>DAY 3: Learn about motors  and code a motor movement</p>
+                                      </figcaption>
+                                      </figure>
+
+                          <figure>
+                            <!-- <span><i class="fa fa-users"></i></span> -->
+
+                              <figcaption>
+                                   <h3>For Arduino Senior Robotics , curriculum </h3>
+
+                                        <p>DAY 1: Introduction to Robotics & AI </p>
+                                        <p>DAY 2: Introduction to Arduino and  code your first arduino project .</p>
+                                        <p>DAY 3: Learn about Motors.</p>
+                                        <p>DAY 4: Learn about Sensors - </p>
+                                        <p>DAY 5: Apply all the above learning to code an Autonomous Mobile Robot</p>
+                              </figcaption>
+                         </figure>
+
+                         <!-- <figure>
+                              <span><i class="fa fa-certificate"></i></span>
+                              <figcaption>
+                                   <h3>International Certifications</h3>
+                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ipsa voluptatibus.</p>
+                              </figcaption>
+                         </figure>
+
+                         <figure>
+                              <span><i class="fa fa-bar-chart-o"></i></span>
+                              <figcaption>
+                                   <h3>Free for 3 months</h3>
+                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ipsa voluptatibus.</p>
+                              </figcaption>
+                         </figure> -->
+                    </div>
+               </div>
+
+               <div class="col-md-offset-1 col-md-4 col-sm-12">
+                    <div class="entry-form" id ="entryform" >
+                         <form>
+                              <h2>Register Now</h2>
+                              <span id="errorname" class='color-red'></span>
+
+                              <input type="text" id="parentsName" class="form-control" placeholder="Parent's name" required="" >
+
+                              <input type="email" id="email" class="form-control" placeholder="Parent's email address" required="" >
+                              <input type="number" id="phone" class="form-control" pattern="[789][0-9]{9}" placeholder="Parent's Mobile Number" required="" onblur="checkphone()">
+                              <input type="text" id="childsName" class="form-control" placeholder="Child's Name" required="">
+                              <select name="Select Child's Grade" id="grade_dd" class="form-control">
+                                   <option value="Select Child's Grade" disabled selected>Select Child's Grade</option>
+                                   <option value="1"> Class 1st</option>
+                                   <option value="2"> Class 2nd</option>
+                                   <option value="3"> Class 3rd</option>
+                                   <option value="4"> Class 4th</option>
+                                   <option value="5"> Class 5th</option>
+                                   <option value="6"> Class 6th</option>
+                                   <option value="7"> Class 7th</option>
+                                   <option value="8"> Class 8th</option>
+                                   <option value="9"> Class 9th</option>
+                                   <option value="10"> Class 10th</option>
+
+                                 </select>
+                              <p>Do you have a laptop or desktop with internet connection?
+                            <div class="d-flex">
+                              <button class="yes">Yes </button>
+                              <p>OR</p>
+                              <button class="no">No</button>
+                            </div>
+                              <!-- <input type="password" name="password" class="form-control" placeholder="Your password" required=""> -->
+
+                              <button class="submit-btn form-control" type='submit'  id="form-submit" onclick="onSubmitForm(event)">Book my slot</button>
+
+                         </form>
+                    </div>
+
+                    <div class="thanksdiv" id ="thanksdiv" >
+                         <p>Thank you for submitting your details.</p>
+                    </div>
+
+               </div>
+
+          </div>
+     </div>
+</section>
+
+
+<!--CARDS--->
+<section>
+     <div class="container">
+          <div class="justify-content-center">
+               <div class="col-md-12">
+                    <div class="main">
+                         <h1>Best Courses</h1>
+                         <ul class="cards justify-content-center">
+                           <!-- CARD 1 -->
+                           <li class="cards_item">
+                             <div class="card">
+                               <div class="card_image"><img src="images/robjr.png"></div>
+                               <div class="card_content">
+                                 <h2 class="card_title">ROBOTICS ARDUINO SENIOR -5 DAYS</h2>
+                                   <p class="card_text" >DAY 1: Introduction to Robotics & Arduino.</p>
+
+                                    <p class="card_text">DAY 2: Learn about basic Arduino block coding , Simple circuit using with LED</p>
+
+                                      <p class="card_text">DAY 3: Learn about motors and code a motor movement</p>
+                                      <p class="price_text"> Only at ₹249/- </p>
+
+                                      <!-- <p>" "</p> -->
+                                      <!-- <div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_HwzdYrUzPPgSB0/view" data-text="Register" data-color="#528FF0" data-size="large">
+                                        <script>
+                                          (function(){
+                                            var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+                                            if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+                                            s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+                                            rzp && rzp.init && rzp.init()}})();
+                                        </script>
+                                      </div> -->
+                                      <button href="https://rzp.io/l/qKjBKNOa3" id="btn1"  class="btn backgroundbtn" data-toggle="modal" data-target="#loginModal" " data-header="Register for Robotics Jr-3 Days">Register</button>
+                               </div>
+                             </div>
+                           </li>
+
+                           <!-- CARD 2 -->
+                           <li class="cards_item">
+                             <div class="card">
+                               <div class="card_image"><img src="images/robsr.jpg"></div>
+                               <div class="card_content">
+                                 <h2 class="card_title">ROBOTICS ARDUINO JUNIOR -3 DAYS</h2>
+                                 <p class="card_text">DAY 1: Introduction to Robotics & AI</p>
+
+                                 <p class="card_text">DAY 2: Introduction to Arduino and code your first arduino project .</p>
+
+                                 <p class="card_text">DAY 3: Learn about Motors.</p>
+
+                                 <p class="card_text">DAY 4: Learn about Sensors.</p>
+
+                                 <p class="card_text">DAY 5: Apply all the above learning to code an Autonomous Mobile Robot</p>
+                                 <p class="price_text">Only at ₹599/- </p>
+<!-- <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_Hwzr7iVdYgu7Sy" async> </script> </form> -->
+                                 <button class="btn card_btn" data-toggle="modal" data-target="#loginModal" ">Register</button>
+                                 <span id="errorname" class='color-red'></span>
+
+                               </div>
+                             </div>
+                           </li>
+
+                           <!-- CARD 3  -->
+                           <!-- <li class="cards_item">
+                             <div class="card">
+                               <div class="card_image"><img src="https://picsum.photos/500/300/?image=10"></div>
+                               <div class="card_content">
+                                 <h2 class="card_title">CODING FOR KIDS -3 DAYS</h2>
+                                 <p class="card_text"></p>
+                                 <button class="btn card_btn">Register</button>
+                               </div>
+                             </div>
+                           </li> -->
+                           <!-- <li class="cards_item">
+                             <div class="card">
+                               <div class="card_image"><img src="https://picsum.photos/500/300/?image=14"></div>
+                               <div class="card_content">
+                                 <h2 class="card_title">Lorem ipsum</h2>
+                                 <p class="card_text">Demo of pixel perfect pure CSS simple responsive Lorem ipsum</p>
+                                 <button class="btn card_btn">Register</button>
+                               </div>
+                             </div>
+                           </li>
+                           <li class="cards_item">
+                             <div class="card">
+                               <div class="card_image"><img src="https://picsum.photos/500/300/?image=17"></div>
+                               <div class="card_content">
+                                 <h2 class="card_title">Lorem ipsum</h2>
+                                 <p class="card_text">Demo of pixel perfect pure CSS simple responsive Lorem ipsum</p>
+                                 <button class="btn card_btn">Register</button>
+                               </div>
+                             </div>
+                           </li>
+                           <li class="cards_item">
+                             <div class="card">
+                               <div class="card_image"><img src="https://picsum.photos/500/300/?image=2"></div>
+                               <div class="card_content">
+                                 <h2 class="card_title">Lorem ipsum</h2>
+                                 <p class="card_text">Demo of pixel perfect pure CSS simple responsive Lorem ipsum</p>
+                                 <button class="btn card_btn">Register</button>
+                               </div>
+                             </div>
+                           </li> -->
+                         </ul>
+
+                       </div>
+               </div>
+          </div>
+     </div>
+</section>
+
+
+<!-- HOME -->
+<section id="home">
+     <div class="row">
+
+               <div class="owl-carousel owl-theme home-slider">
+                    <div class="item item-first">
+                         <div class="caption">
+                              <div class="container">
+                                   <div class="col-md-6 col-sm-12">
+                                        <h1>Distance Learning Education Center</h1>
+                                        <h3>Our online courses are designed to fit in your industry supporting all-round with latest technologies.</h3>
+                                        <a href="#feature" class="section-btn btn btn-default smoothScroll">Discover more</a>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="item item-second">
+                         <div class="caption">
+                              <div class="container">
+                                   <div class="col-md-6 col-sm-12">
+                                        <h1>Start your journey with our practical courses</h1>
+                                        <h3>Our online courses are built in partnership with technology leaders and are designed to meet industry demands.</h3>
+                                        <a href="#courses" class="section-btn btn btn-default smoothScroll">Take a course</a>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="item item-third">
+                         <div class="caption">
+                              <div class="container">
+                                   <div class="col-md-6 col-sm-12">
+                                        <h1>Efficient Learning Methods</h1>
+                                        <h3>Best ways to boost your creativity and make classes fun with learning goind alongside . </h3>
+                                        <a href="#contact" class="section-btn btn btn-default smoothScroll">Join today</a>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+     </div>
+</section>
+
+
+     <!-- FEATURE -->
+     <section id="feature">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-4 col-sm-4">
+                         <div class="feature-thumb">
+                              <span>01</span>
+                              <h3>Trending Courses</h3>
+                              <p>Best Online courses .</p>
+                              <p>3 days bootcamps for kids 8- 12 years .</p>
+                              <p>5 days bootcamps for kids 12+ years .</p>
+
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                         <div class="feature-thumb">
+                              <span>02</span>
+                              <h3>Laptop and internet Required</h3>
+                              <p>Laptop and internet connection is a must fo this course .</p>
+                              <p>Its a simulator based workshop . No kits needed for this course.</p>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                         <div class="feature-thumb">
+                              <span>03</span>
+                              <h3>Certificates / Awards </h3>
+                              <p>Digital Certificates and awards given at the end of the course by KSTAR Bootcamps .</p>
+                              <p>Laptop and internet connection is a must fo this course .</p>
+
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+
+
+     <!-- TEAM -->
+     <!-- <section id="team">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="section-title">
+                              <h2>Teachers <small>Meet Professional Trainers</small></h2>
+                         </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                         <div class="team-thumb">
+                              <div class="team-image">
+                                   <img src="images/author-image1.jpg" class="img-responsive" alt="">
+                              </div>
+                              <div class="team-info">
+                                   <h3>Mark Wilson</h3>
+                                   <span>I love Teaching</span>
+                              </div>
+                              <ul class="social-icon">
+                                   <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+                                   <li><a href="#" class="fa fa-twitter"></a></li>
+                                   <li><a href="#" class="fa fa-instagram"></a></li>
+                              </ul>
+                         </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                         <div class="team-thumb">
+                              <div class="team-image">
+                                   <img src="images/author-image2.jpg" class="img-responsive" alt="">
+                              </div>
+                              <div class="team-info">
+                                   <h3>Catherine</h3>
+                                   <span>Education is the key!</span>
+                              </div>
+                              <ul class="social-icon">
+                                   <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+                                   <li><a href="#" class="fa fa-twitter"></a></li>
+                                   <li><a href="#" class="fa fa-instagram"></a></li>
+
+                              </ul>
+                         </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                         <div class="team-thumb">
+                              <div class="team-image">
+                                   <img src="images/author-image3.jpg" class="img-responsive" alt="">
+                              </div>
+                              <div class="team-info">
+                                   <h3>Jessie Ca</h3>
+                                   <span>I like Online Courses</span>
+                              </div>
+                              <ul class="social-icon">
+                                   <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+                                   <li><a href="#" class="fa fa-twitter"></a></li>
+                                   <li><a href="#" class="fa fa-instagram"></a></li>
+                              </ul>
+                         </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                         <div class="team-thumb">
+                              <div class="team-image">
+                                   <img src="images/author-image4.jpg" class="img-responsive" alt="">
+                              </div>
+                              <div class="team-info">
+                                   <h3>Andrew Berti</h3>
+                                   <span>Learning is fun</span>
+                              </div>
+                              <ul class="social-icon">
+                                   <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+                                   <li><a href="#" class="fa fa-twitter"></a></li>
+                                   <li><a href="#" class="fa fa-instagram"></a></li>
+                              </ul>
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section> -->
+
+     <!-- Courses -->
+     <section id="courses">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="section-title">
+                              <h2>Other Popular Bootcamps by KSTAR <small>Upgrade your rockstar skills with newest courses</small></h2>
+                         </div>
+
+                         <div class="owl-carousel owl-theme owl-courses">
+                              <div class="col-md-4 col-sm-4">
+                                   <div class="item">
+                                        <div class="courses-thumb">
+                                             <div class="courses-top">
+                                                  <div class="courses-image">
+                                                       <img src="images/courses-image1.jpg" class="img-responsive" alt="">
+                                                  </div>
+                                                  <!-- <div class="courses-date">
+                                                       <span><i class="fa fa-calendar"></i> 12 / 7 / 2018</span>
+                                                       <span><i class="fa fa-clock-o"></i> 7 Hours</span>
+                                                  </div> -->
+                                             </div>
+                                             <div class="courses-detail">
+                                                  <h3><a href="#">CODING FOR KIDS</a></h3>
+                                                  <p>Learn to code , make games & animations in Block based Scratch Programming.</p>
+                                             </div>
+                                             <div class="courses-info">
+                                                  <!-- <div class="courses-author">
+                                                       <img src="images/author-image1.jpg" class="img-responsive" alt="">
+                                                       <span>Mark Wilson</span>
+                                                  </div> -->
+                                                  <div class="courses-price" data-toggle="modal" data-target="#loginModal" ">
+                                                       <a href="#"><span>Register for Demo</span></a>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <div class="col-md-4 col-sm-4">
+                                   <div class="item">
+                                        <div class="courses-thumb">
+                                             <div class="courses-top">
+                                                  <div class="courses-image">
+                                                       <img src="images/courses-image2.jpg" class="img-responsive" alt="">
+                                                  </div>
+                                                  <!-- <div class="courses-date">
+                                                       <span><i class="fa fa-calendar"></i> 20 / 7 / 2018</span>
+                                                       <span><i class="fa fa-clock-o"></i> 4.5 Hours</span>
+                                                  </div> -->
+                                             </div>
+
+                                             <div class="courses-detail">
+                                                  <h3><a href="#">Abacus Maths Classes</a></h3>
+                                                  <p>Be a maths wizard . Sharpen your maths and mind .</p>
+                                             </div>
+
+                                             <div class="courses-info">
+                                                  <!-- <div class="courses-author">
+                                                       <img src="images/author-image2.jpg" class="img-responsive" alt="">
+                                                       <span>Jessica</span>
+                                                  </div> -->
+                                                  <div class="courses-price" data-toggle="modal" data-target="#loginModal" ">
+                                                       <a href="#"><span>Register for Demo</span></a>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <div class="col-md-4 col-sm-4">
+                                   <div class="item">
+                                        <div class="courses-thumb">
+                                             <div class="courses-top">
+                                                  <div class="courses-image">
+                                                       <img src="images/courses-image3.jpg" class="img-responsive" alt="">
+                                                  </div>
+                                                  <!-- <div class="courses-date">
+                                                       <span><i class="fa fa-calendar"></i> October 2021</span>
+                                                       <span><i class="fa fa-clock-o"></i> 6 Hours</span>
+                                                  </div> -->
+                                             </div>
+
+                                             <div class="courses-detail">
+                                                  <h3><a href="#">Kids Lets Dance</a></h3>
+                                                  <p>Enjoy this lockdown and learn to dance online .Have fun.</p>
+                                             </div>
+
+                                             <div class="courses-info">
+                                                  <!-- <div class="courses-author">
+                                                       <img src="images/author-image3.jpg" class="img-responsive" alt="">
+                                                       <span>Catherine</span>
+                                                  </div> -->
+                                                  <div class="courses-price" data-toggle="modal" data-target="#loginModal" ">
+                                                       <a href="#"><span>Register for Demo</span></a>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <div class="col-md-4 col-sm-4">
+                                   <div class="item">
+                                        <div class="courses-thumb">
+                                             <div class="courses-top">
+                                                  <div class="courses-image">
+                                                       <img src="images/courses-image4.jpg" class="img-responsive" alt="">
+                                                  </div>
+                                                  <!-- <div class="courses-date">
+                                                       <span><i class="fa fa-calendar"></i> 10 / 8 / 2018</span>
+                                                       <span><i class="fa fa-clock-o"></i> 8 Hours</span>
+                                                  </div> -->
+                                             </div>
+
+                                             <div class="courses-detail">
+                                                  <h3><a href="#">Public Speaking bootcamp </a></h3>
+                                                  <p>Be a leader speaker .Develop your oratory skills.</p>
+                                             </div>
+
+                                             <div class="courses-info">
+                                                  <!-- <div class="courses-author">
+                                                       <img src="images/author-image1.jpg" class="img-responsive" alt="">
+                                                       <span>Mark Wilson</span>
+                                                  </div> -->
+                                                  <div class="courses-price" data-toggle="modal" data-target="#loginModal" ">
+                                                       <a href="#"><span>Register for Demo</span></a>
+                                                  </div>
+                                               <!-- <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_Hwzr7iVdYgu7Sy" async> </script> </form> -->
+
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+
+
+
+
+                         </div>
+
+               </div>
+          </div>
+     </section>
+
+
+     <!-- TESTIMONIAL -->
+     <section id="testimonial">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="section-title">
+                              <h2>Student Reviews <small>from around the world</small></h2>
+                         </div>
+
+                         <div class="owl-carousel owl-theme owl-client">
+                              <div class="col-md-4 col-sm-4">
+                                   <div class="item">
+                                        <div class="tst-image">
+                                             <img src="images/tst-image1.jpg" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="tst-author">
+                                             <h4>Khanak </h4>
+                                             <span>Coding Workshop</span>
+                                        </div>
+                                        <p>I love coding and I joined these classes . I made games in Scratch and Coding .</p>
+                                        <div class="tst-rating">
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <div class="col-md-4 col-sm-4">
+                                   <div class="item">
+                                        <div class="tst-image">
+                                             <img src="images/tst-image2.jpg" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="tst-author">
+                                             <h4>Khyati</h4>
+                                             <span>Dance Workshop</span>
+                                        </div>
+                                        <p>Lockdown was boring and I learned a new skill online . Dance classes are so fun!</p>
+                                        <div class="tst-rating">
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <div class="col-md-4 col-sm-4">
+                                   <div class="item">
+                                        <div class="tst-image">
+                                             <img src="images/tst-image3.jpg" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="tst-author">
+                                             <h4>Anik</h4>
+                                             <span>Coding Workshop</span>
+                                        </div>
+                                        <p>Coding classes are very helpful for me to learn coding . The best part is its online and pocket friendly.</p>
+                                        <div class="tst-rating">
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <div class="col-md-4 col-sm-4">
+                                   <div class="item">
+                                        <div class="tst-image">
+                                             <img src="images/tst-image4.jpg" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="tst-author">
+                                             <h4>Ananya</h4>
+                                             <span>Coding Workshop</span>
+                                        </div>
+                                        <p>I loved coding classes and teachers were so great . Thankyou KSTAR Bootcamps.</p>
+                                        <div class="tst-rating">
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                             <i class="fa fa-star"></i>
+                                        </div>
+                                   </div>
+                              </div>
+
+                         </div>
+
+               </div>
+          </div>
+     </section>
+
+
+     <!-- CONTACT -->
+     <section id="contact">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-6 col-sm-12">
+                         <form id="contact-form" role="form" action="" method="post">
+                              <div class="section-title">
+                                   <h2>Contact us <small>we love conversations. let us talk!</small></h2>
+                              </div>
+
+                              <div class="col-md-12 col-sm-12">
+                                   <input type="text" class="form-control" placeholder="Enter full name" name="name" required="">
+
+                                   <input type="email" class="form-control" placeholder="Enter email address" name="email" required="">
+
+                                   <textarea class="form-control" rows="6" placeholder="Tell us about your message" name="message" required=""></textarea>
+                              </div>
+
+                              <div class="col-md-4 col-sm-12">
+                                   <input type="submit" class="form-control" name="send message" value="Send Message">
+                              </div>
+
+                         </form>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+                         <div class="contact-image">
+                              <img src="images/kstarvirtualbootcamps.png" class="img-responsive" alt="Smiling Two Girls">
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+
+     <!-- FOOTER -->
+     <footer id="footer">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-4 col-sm-6">
+                         <div class="footer-info">
+                              <div class="section-title">
+                                   <h2>Headquarter</h2>
+                              </div>
+                              <address>
+                                   <p>Whatsapp/Call : +91-84678-19116 </p>
+                                   <p>Group and Personal Batches available .</p>
+                              </address>
+
+                              <ul class="social-icon">
+                                   <li><a href="https://fb.me/kstarbootcamps2021" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+                                   <li><a href="https://www.instagram.com/kstarbootcamps/" class="fa fa-instagram"></a></li>
+                              </ul>
+
+                              <!-- <div class="copyright-text">
+                                   <p>Copyright &copy; 2019 Company Name</p>
+
+
+                              </div> -->
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                         <div class="footer-info">
+                              <div class="section-title">
+                                   <h2>Contact Info</h2>
+                              </div>
+                              <address>
+                                   <p>+91 84678-19116</p>
+                                   <p><a href="mailto:hello@kstarbootcamps.com">hello@kstarbootcamps.com</a></p>
+                              </address>
+
+                              <!-- <div class="footer_menu">
+                                   <h2>Quick Links</h2>
+                                   <ul>
+                                        <li><a href="#">Career</a></li>
+                                        <li><a href="#">Investor</a></li>
+                                        <li><a href="#">Terms & Conditions</a></li>
+                                        <li><a href="#">Refund Policy</a></li>
+                                   </ul>
+                              </div> -->
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12">
+                         <div class="footer-info newsletter-form">
+                              <!-- <div class="section-title">
+                                   <h2>Newsletter Signup</h2>
+                              </div> -->
+                              <div>
+                                   <div class="form-group">
+                                        <form action="#" method="get">
+                                             <input type="email" class="form-control" placeholder="Enter your email" name="email" id="email" required="">
+                                             <input type="submit" class="form-control" name="submit" id="form-submit" value="Send me">
+                                        </form>
+                                        <span><sup>*</sup> Please note - we do not spam your email.</span>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </footer>
+
+
+<!------->
+
+
+
+   <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-dialog-centered" role="document">
+       <div class="modal-content">
+         <div class="modal-header border-bottom-0">
+           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+             <span aria-hidden="true">&times;</span>
+           </button>
+         </div>
+         <div class="modal-body">
+           <div class="form-title text-center">
+             <h4>Register Now</h4>
+             <span id="errorname1" class='color-red'></span>
+
+           </div>
+           <div class="d-flex flex-column text-center">
+             <form id="modalform">
+               <div class="form-group">
+                    <input type="text" name="parentsName1" class="form-control" placeholder="Parent's name" required="">
+               </div>
+               <div class="form-group">
+                    <input type="email" name="email1" class="form-control" placeholder="Parent's email address" required="">
+               </div>
+               <div class="form-group">
+                    <input type="number" id="phone1" class="form-control" pattern="[789][0-9]{9}" placeholder="Parent's Mobile Number" required="" onblur="checkphone1()">
+
+               </div>
+               <div class="form-group">
+                    <input type="text" name="childsName1" class="form-control" placeholder="Child's Name" required="">
+               </div>
+               <div class="form-group">
+                 <select name="Select Child's Grade" id="grade_dd1" class="form-control">
+                      <option value="Select Child's Grade" disabled selected>Select Child's Grade</option>
+                      <option value="1"> Class 1st</option>
+                      <option value="2"> Class 2nd</option>
+                      <option value="3"> Class 3rd</option>
+                      <option value="4"> Class 4th</option>
+                      <option value="5"> Class 5th</option>
+                      <option value="6"> Class 6th</option>
+                      <option value="7"> Class 7th</option>
+                      <option value="8"> Class 8th</option>
+                      <option value="9"> Class 9th</option>
+                      <option value="10"> Class 10th</option>
+                  </select>
+               </div>
+               <button type="button" class="btn btn-info btn-block btn-round" onclick="onSubmitModal(event)">Book my slot</button>
+             </form>
+           </div>
+         </div>
+       </div>
+
+     </div>
+   </div>
+
+
+<!------->
+
+
+
+
+
+     <!-- SCRIPTS -->
+     <script src="js/jquery.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/owl.carousel.min.js"></script>
+     <script src="js/smoothscroll.js"></script>
+     <script src="js/custom.js"></script>
+
+</body>
+</html>
